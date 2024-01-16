@@ -1,0 +1,52 @@
+name: Update-Chromium
+
+# Controls when the workflow will run
+on:
+  schedule:
+     - cron: '0 6 * * *'
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  update-chromium:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-20.04
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+        with:
+          lfs: true
+
+      # import gpg key
+      - name: Import GPG key
+        id: import_gpg
+        uses: crazy-max/ghaction-import-gpg@v5
+        with:
+          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.PASSPHRASE }}
+
+      - name: List GPG keys
+        run: gpg -K
+            
+      - name: Build and Package
+        run: |
+          export DIRECTORY="$GITHUB_WORKSPACE"
+          ./download-chromium.sh
+          cd $DIRECTORY/debian
+          dpkg-scanpackages --multiversion . > Packages
+          gzip -k -f Packages
+          echo "Origin: Pi-Apps-Coders chromium-debs" > Release
+          apt-ftparchive release . >> Release
+          gpg --default-key "78193853+Pi-Apps-Coders@users.noreply.github.com" --batch --pinentry-mode="loopback" --passphrase="${{ secrets.PASSPHRASE }}" -abs -o - Release > Release.gpg || error "failed to sign Release.gpg with gpg "
+          gpg --default-key "78193853+Pi-Apps-Coders@users.noreply.github.com" --batch --pinentry-mode="loopback" --passphrase="${{ secrets.PASSPHRASE }}" --clearsign -o - Release > InRelease || error "failed to sign InRelease with gpg"
+
+      - name: Upload
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "debian/*"
+          allowUpdates: true
+          tag: apt-release
+
