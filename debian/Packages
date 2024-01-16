@@ -1,0 +1,372 @@
+Package: chromium-browser
+Version: 120.0.6099.102-rpt1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 371502
+Pre-Depends: dpkg (>= 1.15.6)
+Depends: libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.17), libcairo2 (>= 1.6.0), libcups2 (>= 1.7.0), libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.75), libexpat1 (>= 2.1~beta3), libgbm1 (>= 17.1.0~rc2), libgcc-s1 (>= 4.2), libglib2.0-0 (>= 2.39.4), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.31), libpango-1.0-0 (>= 1.14.0), libqt5core5a (>= 5.3.0), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1), libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxrandr2, bash (>= 4), libgtk-3-0, xdg-utils, chromium-codecs-ffmpeg-extra (= 120.0.6099.102-rpt1) | chromium-codecs-ffmpeg (= 120.0.6099.102-rpt1), libgl1-mesa-dri, libgles2, libegl1, libpulse0
+Recommends: chromium-browser-l10n
+Conflicts: chromium, chromium-browser-inspector
+Replaces: chromium, chromium-browser-inspector
+Provides: chromium, chromium-browser-inspector, www-browser
+Filename: ./chromium-browser_120.0.6099.102-rpt1_arm64.deb
+Size: 110414004
+MD5sum: 365d7903d069a2393520d21c4ff352be
+SHA1: e4a38dc42c4a5bbd90e40d4619615b9da4225295
+SHA256: b5f6d4616a224a25f5477536134490fddf5a1c10bfe39b9a9ce071895714f49b
+Section: web
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://chromium.googlesource.com/chromium/src/
+Description: Chromium web browser, open-source version of Chrome
+ An open-source browser project that aims to build a safer, faster, and more
+ stable way for all Internet users to experience the web.
+
+Package: chromium-browser
+Version: 120.0.6099.102-rpt1
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 356864
+Pre-Depends: dpkg (>= 1.15.6)
+Depends: libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.17), libcairo2 (>= 1.6.0), libcups2 (>= 1.7.0), libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.75), libexpat1 (>= 2.1~beta3), libgbm1 (>= 17.1.0~rc2), libgcc-s1 (>= 3.5), libglib2.0-0 (>= 2.39.4), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.31), libpango-1.0-0 (>= 1.14.0), libqt5core5a (>= 5.3.0), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1), libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxrandr2, bash (>= 4), libgtk-3-0, xdg-utils, chromium-codecs-ffmpeg-extra (= 120.0.6099.102-rpt1) | chromium-codecs-ffmpeg (= 120.0.6099.102-rpt1), libgl1-mesa-dri, libgles2, libegl1, libpulse0, zenity
+Recommends: chromium-browser-l10n
+Conflicts: chromium, chromium-browser-inspector
+Replaces: chromium, chromium-browser-inspector
+Provides: chromium, chromium-browser-inspector, www-browser
+Filename: ./chromium-browser_120.0.6099.102-rpt1_armhf.deb
+Size: 110013816
+MD5sum: 98212bee6ecbe85ce975907e7168b0ae
+SHA1: b5db7bba471fdd67879f1c4d5d050da391a09990
+SHA256: f816dce221b0852236b074f2dc7b0381e9d59b90e8560543bcf63ec9dfb6d059
+Section: web
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://chromium.googlesource.com/chromium/src/
+Description: Chromium web browser, open-source version of Chrome
+ An open-source browser project that aims to build a safer, faster, and more
+ stable way for all Internet users to experience the web.
+
+Package: chromium-browser-dbgsym
+Source: chromium-browser
+Version: 120.0.6099.102-rpt1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 386500
+Depends: chromium-browser (= 120.0.6099.102-rpt1)
+Filename: ./chromium-browser-dbgsym_120.0.6099.102-rpt1_armhf.deb
+Size: 265772340
+MD5sum: 0ce19b99e4e7bb54aafbb4164e4f6f54
+SHA1: 8fd1adb35f3774ca49dae956bcbc3c388b9e7118
+SHA256: 173c01e0f69d4ec1eb05dcc464d900ae7bf3ad64492f5cd1fb5057b24c84ec5a
+Section: debug
+Priority: optional
+Description: debug symbols for chromium-browser
+Build-Ids: 2cb94ac78f7431c864ace7adb01fa0a4d860c911 6cde12bddd86089aa2aeca950fc78c2f3ff3b473 a0b56039874421e29acecf01345bb9d06648263f bd6c73e6b0d86eb559e5e23335e7a9843cc4ce6c bfbe75e53c12942ff0ec1f9dfb3cee64287483fa c4f2ff27fb0a65973e50da1e9884f010645a238e cb9b7da5f69807b0c4d09f025fce65a6d4ba82e3 ec119da0b50f9170ebf706bcdb738336aabbd4bc eebd28b9625e04308cd98af9c4ef547c3a7e9be6 f5fb2e396e82cb12f219f0faca8b9d55924947f0
+
+Package: chromium-browser-dbgsym
+Source: chromium-browser
+Version: 120.0.6099.102-rpt1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 414893
+Depends: chromium-browser (= 120.0.6099.102-rpt1)
+Filename: ./chromium-browser-dbgsym_120.0.6099.102-rpt1_arm64.deb
+Size: 266928724
+MD5sum: b7de07b8105acee6ff6dbf021880db8d
+SHA1: 3243278209b654d48300a33b0157f554dd7b6cef
+SHA256: aaa9b29ce8792d473b8a13e82a447a701f9126018d97a1cd9709e4c55c4dfe9c
+Section: debug
+Priority: optional
+Description: debug symbols for chromium-browser
+Build-Ids: 06fe63e3eff157f14c4069a10a77fa6b720234d9 38b9b147f100e93257c3843847cad5e77be925a2 4b98e48568754c89454432d67bac46aa8e3554c3 51253c8c0e8f3f4db4969162988c29089d713a51 6b02c6b6a9bc78c746ecbf3b11515df4b920d130 779ab079191f15eae300ae47fcd26a8057299d8a 8ca1693571f77e033e5cdb56c2d0b5ac98525155 a19459b0e6a4ae215bd3934cffdb89e5937a09db bd4505895d99762ed36f245e39ac49f7e0ef32f2 c741c212ec8c97cd8927dee6730524dac49dbff9
+
+Package: chromium-browser-l10n
+Source: chromium-browser
+Version: 120.0.6099.102-rpt1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 38111
+Pre-Depends: dpkg (>= 1.15.6)
+Depends: chromium-browser (>= 120.0.6099.102-rpt1), chromium-browser (<< 120.0.6099.102-rpt1.1~)
+Replaces: chromium-browser
+Filename: ./chromium-browser-l10n_120.0.6099.102-rpt1_all.deb
+Size: 6435600
+MD5sum: 3256bd1832b77c3120324a5acf4c1107
+SHA1: 1a140abc1597f85ba681a915b190d3ee8918c01a
+SHA256: e0f18d6f14f03ccd89f5a0b3dad6ce9462843a5042bc9dc4bc3a136742ab8ee6
+Section: web
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://chromium.googlesource.com/chromium/src/
+Description: chromium-browser language packages
+ An open-source browser project that aims to build a safer, faster, and more
+ stable way for all Internet users to experience the web.
+ .
+ This package contains language packages for 65 languages:
+ am, ar, ast, bg, bn, bs, ca, ca@valencia, cs, da, de, el, en-AU, en-GB, eo,
+ es-419, es, et, eu, fa, fil, fi, fr, gl, gu, he, hi, hr, hu, hy, ia, id, it,
+ ja, ka, kn, ko, ku, kw, lt, lv, ml, mr, ms, nb, nl, pl, pt-BR, pt-PT, ro, ru,
+ sk, sl, sr, sv, sw, ta, te, th, tr, ug, uk, vi, zh-CN, zh-TW
+
+Package: chromium-chromedriver
+Source: chromium-browser
+Version: 120.0.6099.102-rpt1
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 16005
+Pre-Depends: dpkg (>= 1.15.6)
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.5), libglib2.0-0 (>= 2.22.0), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libxcb1 (>= 1.9.2), chromium-browser (>= 4.0.203.0~)
+Provides: chromium-driver
+Filename: ./chromium-chromedriver_120.0.6099.102-rpt1_armhf.deb
+Size: 5879520
+MD5sum: d61685a6ebfd369e120e9b5d93ce21d9
+SHA1: 95d6a05ffa2ccaee112131289134b8b688373143
+SHA256: d10cb22caf8475a59f179a54bd62e252221222015dd1c6c4f0b95d1a8ecb550f
+Section: web
+Priority: optional
+Homepage: https://chromium.googlesource.com/chromium/src/
+Description: WebDriver driver for the Chromium Browser
+ Chromedriver serves as a bridge between Chromium Browser and Selenium
+ WebDriver.
+ .
+ See https://sites.google.com/a/chromium.org/chromedriver/ for details.
+
+Package: chromium-chromedriver
+Source: chromium-browser
+Version: 120.0.6099.102-rpt1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 15988
+Pre-Depends: dpkg (>= 1.15.6)
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 4.2), libglib2.0-0 (>= 2.22.0), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libxcb1 (>= 1.9.2), chromium-browser (>= 4.0.203.0~)
+Provides: chromium-driver
+Filename: ./chromium-chromedriver_120.0.6099.102-rpt1_arm64.deb
+Size: 5584956
+MD5sum: e6b649afc07b1a1c074a4b7439053aaa
+SHA1: eb6b2e43f59a6a31820ecef5e0efb02d2dddb7ed
+SHA256: 5cefdbce48b74cef9f6380397bf4f129e1a078c9d735aca17ffd9d9a9c2f9890
+Section: web
+Priority: optional
+Homepage: https://chromium.googlesource.com/chromium/src/
+Description: WebDriver driver for the Chromium Browser
+ Chromedriver serves as a bridge between Chromium Browser and Selenium
+ WebDriver.
+ .
+ See https://sites.google.com/a/chromium.org/chromedriver/ for details.
+
+Package: chromium-codecs-ffmpeg
+Source: chromium-browser
+Version: 120.0.6099.102-rpt1
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2641
+Pre-Depends: dpkg (>= 1.15.6)
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.5)
+Conflicts: chromium-browser (<< 44), chromium-codecs-ffmpeg-extra
+Replaces: chromium-browser (<< 44), chromium-codecs-ffmpeg-extra
+Filename: ./chromium-codecs-ffmpeg_120.0.6099.102-rpt1_armhf.deb
+Size: 766368
+MD5sum: 718832d909cd3a3cc2f9f8981ef86b9c
+SHA1: 441e8cae01a7346ff71fddbb41268eb2848ee576
+SHA256: 19423e6e8cbfc56db3c04b5c8d3fb290f21b499ee3dc5010e925938996404c06
+Section: web
+Priority: optional
+Homepage: https://chromium.googlesource.com/chromium/src/
+Description: Free ffmpeg codecs for the Chromium Browser
+ An open-source browser project that aims to build a safer, faster, and more
+ stable way for all Internet users to experience the web.
+ .
+ This package contains the multi-threaded ffmpeg codecs needed for the HTML5
+ <audio> and <video> tags. Only the free ogg, vorbis and theora codecs are
+ included. See chromium-codecs-ffmpeg-extra for additional codecs
+
+Package: chromium-codecs-ffmpeg
+Source: chromium-browser
+Version: 120.0.6099.102-rpt1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2722
+Pre-Depends: dpkg (>= 1.15.6)
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0)
+Conflicts: chromium-browser (<< 44), chromium-codecs-ffmpeg-extra
+Replaces: chromium-browser (<< 44), chromium-codecs-ffmpeg-extra
+Filename: ./chromium-codecs-ffmpeg_120.0.6099.102-rpt1_arm64.deb
+Size: 740376
+MD5sum: 16b8e9cc2435f52589a2aa490c6aecfb
+SHA1: a3d9ee419e3211161c8c028e40ec924936206c7e
+SHA256: 256574626369b2d09cd1c9304af5c9b2613d900ba97fd921c31e41c8911a9d56
+Section: web
+Priority: optional
+Homepage: https://chromium.googlesource.com/chromium/src/
+Description: Free ffmpeg codecs for the Chromium Browser
+ An open-source browser project that aims to build a safer, faster, and more
+ stable way for all Internet users to experience the web.
+ .
+ This package contains the multi-threaded ffmpeg codecs needed for the HTML5
+ <audio> and <video> tags. Only the free ogg, vorbis and theora codecs are
+ included. See chromium-codecs-ffmpeg-extra for additional codecs
+
+Package: chromium-codecs-ffmpeg-dbgsym
+Source: chromium-browser
+Version: 120.0.6099.102-rpt1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 882
+Depends: chromium-codecs-ffmpeg (= 120.0.6099.102-rpt1)
+Filename: ./chromium-codecs-ffmpeg-dbgsym_120.0.6099.102-rpt1_arm64.deb
+Size: 554904
+MD5sum: 66e70a8b40ad97d30b7a43c4ee0069fc
+SHA1: ff992e0649948a3c4aa52c6ec897c32897ba9e7e
+SHA256: 2a42669505933f18ead3974d97943aec817eda0ae71262cc6a24bde05546774c
+Section: debug
+Priority: optional
+Description: debug symbols for chromium-codecs-ffmpeg
+Build-Ids: 22b1a4560980199517ea0f8ffc59b714e2c7c33b
+
+Package: chromium-codecs-ffmpeg-dbgsym
+Source: chromium-browser
+Version: 120.0.6099.102-rpt1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 804
+Depends: chromium-codecs-ffmpeg (= 120.0.6099.102-rpt1)
+Filename: ./chromium-codecs-ffmpeg-dbgsym_120.0.6099.102-rpt1_armhf.deb
+Size: 576348
+MD5sum: b0c285f2e8d7ef611dec78abe78d0e11
+SHA1: 1be79eabea4d852ffbfe4556739bd76ec67b40c1
+SHA256: d224cc0a00f5dc6a97390da2ae355bc302b1d1642b083aac6b5554f9eb8e62df
+Section: debug
+Priority: optional
+Description: debug symbols for chromium-codecs-ffmpeg
+Build-Ids: 1899a66a987633aab2a612e553d57e24a41d6cf5
+
+Package: chromium-codecs-ffmpeg-extra
+Source: chromium-browser
+Version: 120.0.6099.102-rpt1
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 3502
+Pre-Depends: dpkg (>= 1.15.6)
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.5)
+Conflicts: chromium-browser (<< 44), chromium-codecs-ffmpeg
+Replaces: chromium-browser (<< 44), chromium-codecs-ffmpeg
+Filename: ./chromium-codecs-ffmpeg-extra_120.0.6099.102-rpt1_armhf.deb
+Size: 1024256
+MD5sum: 79b9af1aa346fb5e67766f8a3cc829e1
+SHA1: b96e491d2c7155565535a720ec1bd6e618aec6d7
+SHA256: 5f23e6b8e7f44545c0e96c61c433a188f8cf3940ff1f9433ccf7d5028b527e69
+Section: web
+Priority: optional
+Homepage: https://chromium.googlesource.com/chromium/src/
+Description: Extra ffmpeg codecs for the Chromium Browser
+ An open-source browser project that aims to build a safer, faster, and more
+ stable way for all Internet users to experience the web.
+ .
+ This package contains the multi-threaded ffmpeg codecs needed for the HTML5
+ <audio> and <video> tags. In addition to the patent-free ogg, vorbis and
+ theora codecs, aac/ac3/mpeg4audio/h264/mov/mp3 are also included.  See
+ chromium-codecs-ffmpeg if you prefer only the patent-free codecs
+
+Package: chromium-codecs-ffmpeg-extra
+Source: chromium-browser
+Version: 120.0.6099.102-rpt1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 3529
+Pre-Depends: dpkg (>= 1.15.6)
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0)
+Conflicts: chromium-browser (<< 44), chromium-codecs-ffmpeg
+Replaces: chromium-browser (<< 44), chromium-codecs-ffmpeg
+Filename: ./chromium-codecs-ffmpeg-extra_120.0.6099.102-rpt1_arm64.deb
+Size: 986672
+MD5sum: 9eb3fd9fc3f3212298931d97c291b7f1
+SHA1: 567b32ba07d29f3caa12353ddbc0fb8b28b09eab
+SHA256: 08f879f1924af890c29a335d18d5e0989f43ffb068b6bea41fe3cc2249cf1be0
+Section: web
+Priority: optional
+Homepage: https://chromium.googlesource.com/chromium/src/
+Description: Extra ffmpeg codecs for the Chromium Browser
+ An open-source browser project that aims to build a safer, faster, and more
+ stable way for all Internet users to experience the web.
+ .
+ This package contains the multi-threaded ffmpeg codecs needed for the HTML5
+ <audio> and <video> tags. In addition to the patent-free ogg, vorbis and
+ theora codecs, aac/ac3/mpeg4audio/h264/mov/mp3 are also included.  See
+ chromium-codecs-ffmpeg if you prefer only the patent-free codecs
+
+Package: chromium-codecs-ffmpeg-extra-dbgsym
+Source: chromium-browser
+Version: 120.0.6099.102-rpt1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1156
+Depends: chromium-codecs-ffmpeg-extra (= 120.0.6099.102-rpt1)
+Filename: ./chromium-codecs-ffmpeg-extra-dbgsym_120.0.6099.102-rpt1_armhf.deb
+Size: 845824
+MD5sum: f548730a5a90241ccb875589aec0d430
+SHA1: e08f17cff5346ba6bfa9449ac2b666203140e8c7
+SHA256: 9e47a0eff9909eb7f321ed918e835915fd7e511e95a71992901825772e8d2b65
+Section: debug
+Priority: optional
+Description: debug symbols for chromium-codecs-ffmpeg-extra
+Build-Ids: f1cdb4723cc798c3545af2ee9bcbc6198a046bd5
+
+Package: chromium-codecs-ffmpeg-extra-dbgsym
+Source: chromium-browser
+Version: 120.0.6099.102-rpt1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1223
+Depends: chromium-codecs-ffmpeg-extra (= 120.0.6099.102-rpt1)
+Filename: ./chromium-codecs-ffmpeg-extra-dbgsym_120.0.6099.102-rpt1_arm64.deb
+Size: 788216
+MD5sum: 05cb61f58464a79c5c6bd33438a40d78
+SHA1: dca43db7116b13d28f8b0cc409919ab5dc6075fc
+SHA256: 53f7a38e3f86547de35723befc9f34133bb11ab27884318500d95808658103b5
+Section: debug
+Priority: optional
+Description: debug symbols for chromium-codecs-ffmpeg-extra
+Build-Ids: b592b0e983926a0c53d5bee273b8ddcdca18406f
+
+Package: libwidevinecdm0
+Source: widevine
+Version: 4.10.2252.0+3
+Architecture: arm64
+Maintainer: Serge Schneider <serge@raspberrypi.com>
+Installed-Size: 9411
+Depends: libc6 (>= 2.29), libnspr4 (>= 2:4.9-2~)
+Filename: ./libwidevinecdm0_4.10.2252.0+3_arm64.deb
+Size: 6780096
+MD5sum: 9df0112e10c9639955908cb1697bdc0d
+SHA1: 5b880f534c6a2888de7ef0c548bc322b3b572308
+SHA256: c88bbb210ca94cb4b5c3bb1ff11b5b24f146b76b22b1119b9cac37c421574284
+Section: libs
+Priority: optional
+Homepage: https://www.widevine.com/
+Description: Widevine CDM
+ Widevine is a proprietary digital rights management (DRM) technology
+
+Package: libwidevinecdm0
+Source: widevine
+Version: 4.10.2252.0+3
+Architecture: armhf
+Maintainer: Serge Schneider <serge@raspberrypi.com>
+Installed-Size: 8692
+Depends: libc6 (>= 2.16)
+Filename: ./libwidevinecdm0_4.10.2252.0+3_armhf.deb
+Size: 5990532
+MD5sum: f092ba10d7e8f4a6a700e2e894f8e7ed
+SHA1: dfbd9a393c4115f26a1ef89f42fd57a371f37b7a
+SHA256: 5b1199bcd3471d126098be42ca0af0e486302df94cdf4643e4fe2a86d4c4c7d1
+Section: libs
+Priority: optional
+Homepage: https://www.widevine.com/
+Description: Widevine CDM
+ Widevine is a proprietary digital rights management (DRM) technology
+
