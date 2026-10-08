@@ -31,7 +31,7 @@ Packages_armhf_url="${rootpath}dists/bookworm/main/binary-armhf/Packages"
 #Packages_armhf="$(wget -O- "$Packages_armhf_url")"
 
 # temporary, regenerate debian repo with existing release assets
-gh release download --repo ${{ github.repository }} --dir .
+gh release download --repo "Pi-Apps-Coders/chromium-debs" --dir .
 
 mkdir -p debian
 cd debian || exit 1
