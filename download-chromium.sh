@@ -20,7 +20,8 @@ chromium-sandbox
 chromium-sandbox-dbgsym
 chromium-shell
 chromium-shell-dbgsym
-libwidevinecdm0"
+libwidevinecdm0
+libdav1d6"
 
 rootpath="https://archive.raspberrypi.com/debian/"
 Packages_arm64_url="${rootpath}dists/bookworm/main/binary-arm64/Packages"
