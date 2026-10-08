@@ -27,8 +27,11 @@ rootpath="https://archive.raspberrypi.com/debian/"
 Packages_arm64_url="${rootpath}dists/bookworm/main/binary-arm64/Packages"
 Packages_armhf_url="${rootpath}dists/bookworm/main/binary-armhf/Packages"
 
-Packages_arm64="$(wget -O- "$Packages_arm64_url")"
-Packages_armhf="$(wget -O- "$Packages_armhf_url")"
+#Packages_arm64="$(wget -O- "$Packages_arm64_url")"
+#Packages_armhf="$(wget -O- "$Packages_armhf_url")"
+
+# temporary, regenerate debian repo with existing release assets
+gh release download --repo ${{ github.repository }} --dir .
 
 mkdir -p debian
 cd debian || exit 1
