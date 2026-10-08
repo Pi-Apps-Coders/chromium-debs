@@ -1,13 +1,25 @@
 #!/bin/bash
 
-deb_list="chromium-browser-l10n
+deb_list="chromium
 chromium-browser
-chromium-codecs-ffmpeg
-chromium-codecs-ffmpeg-extra
-chromium-codecs-ffmpeg-dbgsym
-chromium-codecs-ffmpeg-extra-dbgsym
 chromium-browser-dbgsym
+chromium-browser-l10n
 chromium-chromedriver
+chromium-codecs-ffmpeg
+chromium-codecs-ffmpeg-dbgsym
+chromium-codecs-ffmpeg-extra
+chromium-codecs-ffmpeg-extra-dbgsym
+chromium-common
+chromium-common-dbgsym
+chromium-dbgsym
+chromium-driver
+chromium-headless-shell
+chromium-headless-shell-dbgsym
+chromium-l10n
+chromium-sandbox
+chromium-sandbox-dbgsym
+chromium-shell
+chromium-shell-dbgsym
 libwidevinecdm0"
 
 rootpath="https://archive.raspberrypi.com/debian/"
